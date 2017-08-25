@@ -14,65 +14,38 @@ La raíz de un directorio en Linux es el nivel con la vista mas alta del directo
 |------|------|------|
 | /bin | echo  | aplicaciones binarias importantes   |
 | /boot  | grub  |  Ficheros de configuración del arranque   |
-| /dev |   | los ficheros de dispositivo   |
-| /etc |   | ficheros de configuración, scripts de arranque, etc   |
-| /home |   | directorios personales (home) para los diferentes usuarios   |
-| /initrd |   | usado cuando se crea un proceso de arranque initrd personalizado.   |
-| /lib |   | librerías del sistema   |
-| /lost+found  |   | - proporciona un sistema de "perdido+encontrado" (lost+found) para los ficheros que existen debajo del directorio raíz   |
-| /media |   |  particiones montadas automáticamente en el disco duro y medios   |
-| /mnt |   | sistemas de archivos montados manualmente en el disco duro   |
-| /opt |   |  proporciona una ubicación donde instalar aplicaciones opcionales    |
-| /proc |   | directorio dinámico especial que mantiene información sobre el estado del sistema, incluyendo los procesos actualmente en ejecución   |
-| /root |   | directorio personal del usuario root   |
-| /sbin |   |  binarios importantes del sistema   |
-| /srv |   | archivos del sistema (system)   |
-| /sys |   |archivos del sistema (system)    |
-| /tmp |   | temporary files   |
-| /usr |   | plicaciones y archivos a los que puede acceder la mayoría de los usuarios   |
-| /var |   | archivos variables como archivos de registros y bases de datos   |
+| /dev | ht0  | los ficheros de dispositivo   |
+| /etc | passwd  | ficheros de configuración, scripts de arranque, etc   |
+| /home | tecmint   | directorios personales (home) para los diferentes usuarios   |
+| /initrd | mkinitrd   | usado cuando se crea un proceso de arranque initrd personalizado.   |
+| /lib |  libreadline.so.3 | librerías del sistema   |
+| /lost+found  |  -rw-r--r-- 1 root root 110891 Oct 5 14:14 #388200  | - proporciona un sistema de "perdido+encontrado" (lost+found) para los ficheros que existen debajo del directorio raíz   |
+| /media | v4l2grab.c  |  particiones montadas automáticamente en el disco duro y medios   |
+| /mnt | cdrom  | sistemas de archivos montados manualmente en el disco duro   |
+| /opt | someapp  |  proporciona una ubicación donde instalar aplicaciones opcionales    |
+| /proc | meminfo  | directorio dinámico especial que mantiene información sobre el estado del sistema, incluyendo los procesos actualmente en ejecución   |
+| /root | anaconda-ks.cfg  | directorio personal del usuario root   |
+| /sbin | fastboot |  binarios importantes del sistema   |
+| /srv | /srv/physics/www  | puede contener archivos que se sirven a otros sistemas     |
+| /sys | bloc  |archivos del sistema (system)    |
+| /tmp | someawesomeexample  | temporary files   |
+| /usr | /usr/X11R6/lib  | plicaciones y archivos a los que puede acceder la mayoría de los usuarios   |
+| /var | /var/backups | archivos variables como archivos de registros y bases de datos   |
 
-    /bin - aplicaciones binarias importantes
-
-    /boot - Ficheros de configuración del arranque, núcleos y otros ficheros necesarios para el arranque (boot) del equipo.
-
-    /dev - los ficheros de dispositivo
-
-    /etc - ficheros de configuración, scripts de arranque, etc.
-
-    /home - directorios personales (home) para los diferentes usuarios.
-
-    /initrd - usado cuando se crea un proceso de arranque initrd personalizado.
-
-    /lib - librerías del sistema (libraries)
-
-    /lost+found - proporciona un sistema de "perdido+encontrado" (lost+found) para los ficheros que existen debajo del directorio raíz (/)
-
-    /media - particiones montadas (cargadas) automáticamente en el disco duro y medios (media) extraíbles como CDs, cámaras digitales, etc.
-
-    /mnt - sistemas de archivos montados manualmente en el disco duro.
-
-    /opt - proporciona una ubicación donde instalar aplicaciones opcionales (de terceros)
-
-    /proc - directorio dinámico especial que mantiene información sobre el estado del sistema, incluyendo los procesos actualmente en ejecución
-
-    /root - directorio personal del usuario root (superusuario); también llamado "barra-root".
-
-    /sbin - binarios importantes del sistema
-
-    /srv - puede contener archivos que se sirven a otros sistemas
-
-    /sys - archivos del sistema (system)
-
-    /tmp - temporary files
-
-    /usr - aplicaciones y archivos a los que puede acceder la mayoría de los usuarios
-
-    /var - archivos variables como archivos de registros y bases de datos
-
-
-
+   
 ### 2.  
+| Comando   | Usuario | Descripción   |
+|------|------|------|
+| $ cat | root|  permite visualizar el contenido de un archivo de texto sin la necesidad de un editor  |
+| $ cp   | root   |  copia un archivo o directorio origen a un archivo o directorio destino  |
+| $ mv   | root  |  mueve un archivo a una ruta específica, y a diferencia de cp, lo elimina del origen finalizada la operación  |
+|  $ rm  | root  | es el comando necesario para borrar un archivo   |
+|  $pwd  | root  |  imprime nuestra ruta o ubicación al momento de ejecutarlo  |
+| $ iwconfig  | root  | Muestra información de las tarjetas de red inalámbrica (wireless) que haya instaladas en el equipo   |
+| $ date  | root  | Muestra la hora y la fecha   |
+| $ cksum    | root  | Muestra el CRC del fichero y el tamaño en bytes   |
+| $ whereis  | root  | Busca los archivos ejecutables, las fuentes y el manual de un comando   |
+| $ sysctl  | root  | Muestra o modifica valores del kernel en tiempo de ejecución   |
 
 ### 3.
 
@@ -81,3 +54,5 @@ La raíz de un directorio en Linux es el nivel con la vista mas alta del directo
 
 https://github.com/ICESI/so-commands/tree/master/centos7
 https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html
+https://hipertextual.com/archivo/2014/04/comandos-basicos-terminal/
+http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=155
