@@ -48,7 +48,8 @@ La raíz de un directorio en Linux es el nivel con la vista mas alta del directo
 | $ sysctl  | root  | Muestra o modifica valores del kernel en tiempo de ejecución   |
 
 ### 3.
-
+Me resultó más fácil compartirte este link en drive para que veas la evidencia de mi trabajo
+https://docs.google.com/document/d/13GsUwOQgaWRDZO7PQ0zbf8VZf-nLPQEtUxv8rhAf26w/edit?usp=sharing
 
 ## Referencias
 
@@ -56,3 +57,5 @@ https://github.com/ICESI/so-commands/tree/master/centos7
 https://help.ubuntu.com/kubuntu/desktopguide/es/directories-file-systems.html
 https://hipertextual.com/archivo/2014/04/comandos-basicos-terminal/
 http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=155
+http://www.sysadmit.com/2016/04/linux-variables-de-entorno-permanentes.html
+https://docs.google.com/document/d/13GsUwOQgaWRDZO7PQ0zbf8VZf-nLPQEtUxv8rhAf26w/edit?usp=sharing
